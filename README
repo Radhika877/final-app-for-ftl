@@ -22,4 +22,4 @@ dbsqlite.3
 This project reads the JSON data provided and then the dummy data which is produced by Faker package and it is populated with exisiting data. Lastlty, an API is used
 to serve all the data in JSON format.
 
-The code and API endpoint is hosted on Heroku App which is a publicaly located app.
+The code and API endpoint will be hosted on Heroku App soon after the problems have been fixed.
