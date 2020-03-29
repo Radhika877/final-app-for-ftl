@@ -1,0 +1,9 @@
+{% extends "base2.html" %}
+{% block content %}
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+		<h1> The date and time for starting and ending is saved automatically!</h1>
+        <button type="submit">Save</button>
+    </form>
+{% endblock %}
