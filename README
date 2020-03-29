@@ -1,0 +1,19 @@
+FULLTHROTTLE LABS BACKEND ENGINEER TEST
+The project consists of management and population of data in the databse for the given JSON file which describes a list of users &
+their corresponding periods of activity across multiple months.
+
+Requirements:
+1. Python : 3.7.2 version
+2. Django : 3.0.2 version
+
+Packages used:
+1. Faker package is used to create the dummy data and then it is used to populate ie, migrate the dummy data into the exisiting data provided in the JSON file.
+2. JSON 
+
+Database used: 
+dbsqlite.3
+
+This project reads the JSON data provided and then the dummy data which is produced by Faker package and it is populated with exisiting data. Lastlty, an API is used
+to serve all the data in JSON format.
+
+The code and API endpoint is hosted on Heroku App which is a publicaly loacted app.
